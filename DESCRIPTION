@@ -1,0 +1,15 @@
+Title: GeoCodeR
+Description: Code Samples associated with iterative googleMaps address verification/geocoding and refinement
+  * Slicing appropriate size chunk of records to send for GeoCoding data
+  * Assemble concatenated address data properly relative to each country
+  * Send data through ggmap API and Google Maps Geocoding API
+URL: https://github.com/leerssej/GeoCodeR
+BugReports: https://github.com/leerssej/GeoCodeR/issues
+Depends:
+    R (>= 3.1.0)
+    magrittr
+    tidyverse
+    ggmap
+Authors@R: person("Jens", "Leerssen", email = "jens.leerssen@gmail.com", role = c("aut", "cre")leerssej
+Date: Updated 20 Nov 2016
+License: GPL-3
