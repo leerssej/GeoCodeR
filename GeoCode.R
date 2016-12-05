@@ -10,7 +10,7 @@ library(magrittr)
 library(tidverse)
 library(ggmap)
 
-###### 32. SliceR, ConcatAssemblR & GeoCodR ####
+###### 32. SliceR, ConcatAssembleR & GeoCodeR ####
 load("BuggedPanpoplyv6")
 # v6 bugged section only
 #### a. SliceR
@@ -72,7 +72,7 @@ UndoneSectionReady2Send$cnCtAddr %<>% gsub("^, ", "", .)
 UndoneSectionReady2Send$cnCtAddr %<>% gsub("oblast' oblast'", "oblast'", .)
 glimpse(UndoneSectionReady2Send)
 
-###### c. GeoCodR
+###### c. GeoCodeR
 # prep to use GGMAP
 # Checkif GeoCoding Available
 geocodeQueryCheck()
