@@ -83,11 +83,3 @@ startTime <- Sys.time()
 geo_reply = mutate_geocode(UndoneSectionReady2Send, cnCtAddr, output = 'more', source = 'google')
 # Sample API call from MA
 stopTime <- Sys.time()
-##write the organized file to collection
-# Check dir
-dir()
-#write the Filename with its slice and time date stamp in
-write.csv(geo_reply, file = paste0("GeoReplyCT3GC4MutateGrp_Run", runNum , "_from", SectionName, "_NewGeoCodes.csv"), row.names = F)
-#check to see that it got written
-dir()
-names(geo_reply)
